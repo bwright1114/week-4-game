@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	overflow-x: auto;
+	background: url("http://www.freepptbackgrounds.net/wp-content/uploads/2013/11/Purple-and-Blue-Gems-Fractal-Backgrounds.jpg") no-repeat center center fixed;
+}
+
+
+#crystals {
+	color: white;	
+	margin-top: 65px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 16px;
+	margin-right: 50px;
+
+}
+
+h1 {
+font-family: 'Russo One', sans-serif;
+text-align: center;
+color: white;
+font-size: 48px;
+margin-top: 30px;
+}
+
+h1:hover, h1:active {
+	font-size: 150%
+	
+}
+
+#scoreboard {
+	color: white;
+	margin-top: 65px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+
+#guessNumber {
+	color:white;
+	margin-top: 65px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+
+.userTotal {
+	color: white;
+	margin-top: 65px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+	margin-right: 25px;
+}
+
+.gems {
+	margin-top: 15px;
+	margin-left: 70px;
+	font-family: 'Russo One', sans-serif;
+	font-size: 20px;
+}
+
+span {
+	color: #D4AF37;
+	font-weight: bold;
+}	

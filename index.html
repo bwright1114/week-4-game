@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css?family=Anton|Russo+One" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+			
+			
+			<h1>Crystal Collectors!</h1>
+			<div class="col-sm-6" id="crystals">
+				<p>INSTRUCTIONS:</p>	
+				<br>
+				<p>*You are given a random number at the start of the game.</p>
+				<br>
+				<p>*<span>There are 4 crystals below</span> By clicking on the crystals you will add a specific amaount of points to your total scrore.</p>
+				<br>
+				<p>*You win the game by matching your total score to the random number.</p>
+				<br>
+				<p>*You lose the game if your total score goes over the random number.</p>
+				<br>
+				<p>*The value of each crystal is hidden from you until you click on it.</p>
+				<br>
+				<p>*Each time the game starts, the game will generate a new value for each crystal.</p>
+				<br>
+				<p>GOOD LUCK!</p>
+				<br>
+					
+		</div>
+			
+			<div class="col-sm-4" id="scoreboard">
+				<h4>WINS : <span id="numberWin"></span></h4>
+				<h4>LOSSES : <span id="numberLose"></span></h4>
+			</div>
+			<div id="guessNumber">
+				<h2>NUMBER GUESS : <span id="numValue"></span></h2>
+			</div>
+			<div class="userTotal">
+				<h2>YOUR TOTAL : <span id="total"></span></h2>
+			</div>	
+			</div>	
+		</div>
+			<div class="gems">
+				<img src="assets/images/bluegem.png" alt="bluegem" class="gemImages" id="bluegem1">
+				<img src="assets/images/greengem.png" alt="greengem" class="gemImages" id="greengem2">
+				<img src="assets/images/redgem.png" alt="redgem" class="gemImages" id="redgem3">
+				<img src="assets/images/yellowgem.png" alt="yellowgem" class="gemImages" id="yellowgem4">
+			</div>
+		
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>	
+		<script type="text/javascript" src="assets/javascript/games.js"></script>
+	</body>
+</html>
